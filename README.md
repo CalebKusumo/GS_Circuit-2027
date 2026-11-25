@@ -33,3 +33,12 @@ on the MOSFET gate(s).
 
 <p>
 <img src="Images/mosfet_photo_example.png">
+
+## Updated schematic (2026-11)
+
+BS170 MOSFETs (Q2, Q3) now drive the LEDs, as proposed above, so the
+LED pins can be shared with the ISP.  The light sensor (S1) is on
+PB2 (SCK/ADC1).
+
+<p>
+<img src="Images/GS_Circuit.svg">
